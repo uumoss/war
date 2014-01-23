@@ -29,7 +29,9 @@ $(document).ready(function() {
 	}
 	
 	//shuffle the deck
-	
+	var shuffled = _.shuffle(deck);
+
+	console.log(shuffled);
 	
 	var cards_player_1 = [];
 	var cards_player_2 = [];
